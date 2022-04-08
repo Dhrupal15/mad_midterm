@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		CC1E337227DA3F5F00C711ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E337127DA3F5F00C711ED /* AppDelegate.swift */; };
 		CC1E337427DA3F5F00C711ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E337327DA3F5F00C711ED /* SceneDelegate.swift */; };
-		CC1E337627DA3F5F00C711ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E337527DA3F5F00C711ED /* ViewController.swift */; };
+		CC1E337627DA3F5F00C711ED /* InitialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E337527DA3F5F00C711ED /* InitialScene.swift */; };
 		CC1E337927DA3F5F00C711ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E337727DA3F5F00C711ED /* Main.storyboard */; };
 		CC1E337B27DA3F6800C711ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1E337A27DA3F6800C711ED /* Assets.xcassets */; };
 		CC1E337E27DA3F6800C711ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E337C27DA3F6800C711ED /* LaunchScreen.storyboard */; };
 		CC1E338927DA3F6900C711ED /* midterm_Dhrupal_DesaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E338827DA3F6900C711ED /* midterm_Dhrupal_DesaiTests.swift */; };
 		CC1E339427DA3F6900C711ED /* midterm_Dhrupal_DesaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E339327DA3F6900C711ED /* midterm_Dhrupal_DesaiUITests.swift */; };
+		CCD575E327DD1D5C0099CE36 /* ButtonSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD575E227DD1D5C0099CE36 /* ButtonSceneViewController.swift */; };
+		CCD5760527DD2DB20099CE36 /* MapSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5760427DD2DB20099CE36 /* MapSceneViewController.swift */; };
+		CCD5760D27DD3F120099CE36 /* FunctionSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5760C27DD3F120099CE36 /* FunctionSceneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		CC1E336E27DA3F5F00C711ED /* midterm_Dhrupal_Desai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midterm_Dhrupal_Desai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1E337127DA3F5F00C711ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC1E337327DA3F5F00C711ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC1E337527DA3F5F00C711ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC1E337527DA3F5F00C711ED /* InitialScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScene.swift; sourceTree = "<group>"; };
 		CC1E337827DA3F5F00C711ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC1E337A27DA3F6800C711ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1E337D27DA3F6800C711ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		CC1E338F27DA3F6900C711ED /* midterm_Dhrupal_DesaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = midterm_Dhrupal_DesaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1E339327DA3F6900C711ED /* midterm_Dhrupal_DesaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midterm_Dhrupal_DesaiUITests.swift; sourceTree = "<group>"; };
 		CC1E339527DA3F6900C711ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD575E227DD1D5C0099CE36 /* ButtonSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSceneViewController.swift; sourceTree = "<group>"; };
+		CCD5760427DD2DB20099CE36 /* MapSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSceneViewController.swift; sourceTree = "<group>"; };
+		CCD5760C27DD3F120099CE36 /* FunctionSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionSceneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				CC1E337127DA3F5F00C711ED /* AppDelegate.swift */,
 				CC1E337327DA3F5F00C711ED /* SceneDelegate.swift */,
-				CC1E337527DA3F5F00C711ED /* ViewController.swift */,
+				CC1E337527DA3F5F00C711ED /* InitialScene.swift */,
 				CC1E337727DA3F5F00C711ED /* Main.storyboard */,
 				CC1E337A27DA3F6800C711ED /* Assets.xcassets */,
 				CC1E337C27DA3F6800C711ED /* LaunchScreen.storyboard */,
+				CCD575E227DD1D5C0099CE36 /* ButtonSceneViewController.swift */,
 				CC1E337F27DA3F6800C711ED /* Info.plist */,
+				CCD5760427DD2DB20099CE36 /* MapSceneViewController.swift */,
+				CCD5760C27DD3F120099CE36 /* FunctionSceneViewController.swift */,
 			);
 			path = midterm_Dhrupal_Desai;
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1E337627DA3F5F00C711ED /* ViewController.swift in Sources */,
+				CCD5760527DD2DB20099CE36 /* MapSceneViewController.swift in Sources */,
+				CC1E337627DA3F5F00C711ED /* InitialScene.swift in Sources */,
 				CC1E337227DA3F5F00C711ED /* AppDelegate.swift in Sources */,
 				CC1E337427DA3F5F00C711ED /* SceneDelegate.swift in Sources */,
+				CCD575E327DD1D5C0099CE36 /* ButtonSceneViewController.swift in Sources */,
+				CCD5760D27DD3F120099CE36 /* FunctionSceneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.conestoga.midterm-Dhrupal-Desai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.conestoga.midterm-Dhrupal-Desai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
